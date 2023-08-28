@@ -1,0 +1,86 @@
+/* General styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-image: linear-gradient(
+    115deg,
+    rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.7)
+  ),
+  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+/* Centered title and description */
+#title {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom:0;
+}
+ #description{
+     text-align: center;
+     margin-top: 0;
+     font-style:italic;
+     font-weight:light; 
+ }
+/* Form container */
+form {
+  width: 55vw;
+  max-width: 700px;
+  min-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(27, 27, 50, 0.8);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Common styling for form elements */
+#name, #email, #number, #dropdown, textarea, button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Display radio buttons and checkboxes inline */
+.input-group {
+  display: flex;
+  flex-direction: column; /* Place input options vertically */
+  margin-bottom: 1rem; /* Add spacing between input groups */
+}
+
+.input-option {
+  display: flex;
+  align-items: center; /* Vertically center input and label */
+}
+
+/* Style radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  transform: scale(1.5); /* Increase the size of radio buttons and checkboxes */
+  margin-right: 10px; /* Add spacing between input and label */
+}
+
+/* Submit button styling */
+button {
+  background-color: #37af65;
+  color: white;
+}
+
+/* Additional styling for fieldset and comments label */
+fieldset {
+  padding: 25px;
+  border-style: none;
+}
+
+label[for="comments"] {
+  margin-top: 1.5rem;
+}
+textarea {
+  height: 120px
+}
